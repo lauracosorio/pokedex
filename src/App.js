@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import CharacterList from "./Components/Pokemon/pokemonList"
 import CharacterInfo from "./Components/Pokemon/pokemonInfo"
 
+
 class App extends Component {
     render() {
         return (

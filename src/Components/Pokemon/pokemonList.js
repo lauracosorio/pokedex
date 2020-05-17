@@ -53,11 +53,13 @@ class CharacterList extends Component {
 
   render() {
     return (
+      
       <div className="App">
         <Navbar />
 
         <PokemonSearch onChangeFiltro={this.handleChangeFiltro} />
 
+       
         {this.state.data ? (
           <div className="row margenC justify-content-center">
             {this.state.data.map((data) => (
@@ -75,12 +77,13 @@ class CharacterList extends Component {
               src={require("../../images/pokeball.gif")}
               alt="Cargando Pokemón"
             />
-            {/* <h5 className="m-5 text-center">Cargando Pokemon</h5> */}
+            <h5 className="m-5 text-center">Cargando Pokemon...</h5>
           </>
         )}
 
         <Footer />
       </div>
+      
     );
   }
 }

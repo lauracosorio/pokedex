@@ -131,7 +131,6 @@ class CharacterInfo extends Component {
 
     return (
       <div className="info">
-        
         <Link to="/">
           <div className="container">
             <svg
@@ -338,12 +337,14 @@ class CharacterInfo extends Component {
               </div>
             </div>
           </div>
+          
         </div>
        ):(<>
         <img className="loading justify-content-center" src={require('../../images/pokeball.gif')} alt="Cargando Pokemón"/>
        {/* <h5 className="m-5 text-center">Cargando Pokemon</h5> */}
        </>)}
       </div>
+      
     );
   }
 }
