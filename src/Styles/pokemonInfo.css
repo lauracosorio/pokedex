@@ -1,0 +1,74 @@
+body {
+  margin: 0%;
+  background: rgba(211, 208, 208, 0.637);
+}
+
+.margen {
+  margin-left: 25%;
+}
+
+.contenedor {
+  margin-left: 20%;
+  margin-right: 20%;
+  background: white;
+}
+
+.imagePokemon {
+  width: 237px;
+  margin-top: 25%;
+}
+
+/* .profile{
+    margin: 0 auto;
+} */
+
+@media (max-width: 200px) {
+  .imagePokemon {
+    margin-top: 0% !important;
+    margin-left: -50% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .imagePokemon {
+    margin-left: -8% !important;
+  }
+
+  .contenedor {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 360px) {
+    .imagePokemon {
+      margin-left: -8% !important;
+    }
+  
+    .contenedor {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  }
+
+  @media (min-width: 411px) {
+    .imagePokemon {
+      margin-left: -8% !important;
+    }
+  
+    .contenedor {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .imagePokemon {
+      margin-left: 20% !important;
+    }
+  
+    .contenedor {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+  }
